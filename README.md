@@ -36,9 +36,9 @@ py -3.11 -m venv .venv
 pip install negmas scml scml-agents
 ```
 または:
-'''powershell
+```powershell
 pip install -r requirements.txt
-'''
+```
 
 
 上記で必要なライブラリがすべてインストールされます。
