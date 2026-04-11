@@ -1,6 +1,8 @@
+# ANAC SCML Oneshotトラックの導入
+
 # 関連サイト
 - 申し込み，結果の確認など: https://scml.cs.brown.edu/  
-	- trackごとのチュートリアル，GitHubリポジトリもここから確認できます
+	- トラックごとのチュートリアル，GitHubリポジトリもここから確認できます
 - oneshotのチュートリアル: https://scml.readthedocs.io/en/latest/tutorials/notebooks/02.develop_agent_scml2024_oneshot.html  
 	- 他のベースエージェントはここから確認できます
 - 過去の上位エージェント: https://github.com/yasserfarouk/scml-agents?tab=readme-ov-file#oneshot-track
@@ -33,6 +35,12 @@ py -3.11 -m venv .venv
 ```powershell
 pip install negmas scml scml-agents
 ```
+または:
+'''powershell
+pip install -r requirements.txt
+'''
+
+
 上記で必要なライブラリがすべてインストールされます。
 
 ## 3. エージェントの実装
