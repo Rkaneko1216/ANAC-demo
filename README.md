@@ -10,7 +10,8 @@
 ---
 
 # 環境構築
-実行環境
+開発環境
+- Visual Studio Code
 - Python 3.11.9
 - Windows 11
 
